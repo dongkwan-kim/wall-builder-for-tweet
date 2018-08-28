@@ -1,0 +1,16 @@
+
+{
+  "name": "Wall Builder for Tweet",
+  "description": "Let's build a wall for tweet images",
+  "version": "1.0",
+  "content_scripts": [{
+    "js": [
+      "inject.js"
+    ],
+    "matches": [
+      "http://twitter.com/*",
+      "https://twitter.com/*"
+    ]
+  }],
+  "manifest_version": 2
+}
